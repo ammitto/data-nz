@@ -1,0 +1,89 @@
+= New Zealand Russia Sanctions Register
+
+image:https://img.shields.io/github/license/ammitto/data-nz.svg[License]
+image:https://github.com/ammitto/data-nz/actions/workflows/update.yml/badge.svg["Update Status", link="https://github.com/ammitto/data-nz/actions/workflows/update.yml"]
+
+== Purpose
+
+This repository contains sanctioned individuals, entities, and vessels from the
+New Zealand Russia Sanctions Register, maintained by the Ministry of Foreign
+Affairs and Trade (MFAT).
+
+== Source
+
+* **Authority**: New Zealand Ministry of Foreign Affairs and Trade (MFAT)
+* **URL**: https://www.mfat.govt.nz/en/trade-and-country-services/sanctions/
+* **XLSX Download**: https://www.mfat.govt.nz/assets/Countries-and-Regions/Europe/Ukraine/Russia-Sanctions-Register.xlsx
+* **Format**: XLSX (multiple sheets)
+* **Update Frequency**: As updated by MFAT
+* **Country Code**: NZ
+
+== Legal Basis
+
+These sanctions are implemented under:
+
+* Russia Sanctions Act 2022
+* Russia Sanctions Regulations 2022
+
+Note: New Zealand also implements UN sanctions, but those are covered by the
+https://github.com/ammitto/data-un[data-un] repository.
+
+== Directory Structure
+
+```
+data-nz/
+├── downloaded/        # Raw downloaded XLSX files
+├── processed/         # Processed YAML files (one per entity)
+└── README.adoc        # This file
+```
+
+== Data Contents
+
+The register contains three types of designated persons:
+
+* **Individuals**: Natural persons subject to sanctions
+* **Entities**: Organizations and companies subject to sanctions
+* **Ships**: Vessels subject to ship bans
+
+== Data Format
+
+Individual:
+
+[source,yaml]
+----
+type: Individual
+unique_identifier: IND-1
+first_name: Vladimir
+middle_names: Vladimirovich
+last_name: Putin
+dob: '1952-10-07'
+title: President of the Russian Federation
+sanction_status: Sanctioned
+date_of_sanction: '2022-03-18'
+travel_ban: 'Yes'
+asset_freeze: 'Yes'
+aircraft_ban: 'Yes'
+ship_ban: 'Yes'
+----
+
+Ship:
+
+[source,yaml]
+----
+type: Ship
+unique_identifier: SHP-1
+imo_number: '9288693'
+name: Andaman Skies
+date_of_sanction: '2025-06-19'
+ship_ban: 'Yes'
+----
+
+== Usage
+
+This data is part of the https://github.com/ammitto/ammitto[Ammitto] sanctions
+screening system.
+
+== License
+
+Data is sourced from official New Zealand government publications.
+Repository structure and processing code are under the MIT License.
