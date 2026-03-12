@@ -1,0 +1,10 @@
+{
+  "id": "https://www.ammitto.org/entity/nz/unknown",
+  "entity_type": "organization",
+  "source_references": [
+    {
+      "source_code": "nz"
+    }
+  ],
+  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+}
