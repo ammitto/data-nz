@@ -4,5 +4,6 @@ unique_identifier: SHP-17
 imo_number: '9333424'
 name: Phoenix
 date_of_sanction: '2025-06-19'
+alias_alternate_names: Photon
 sanction_status: Sanctioned
 ship_ban: 'Yes'
