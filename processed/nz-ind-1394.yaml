@@ -2,7 +2,8 @@
 type: Individual
 unique_identifier: IND-1394
 first_name: Afshin
-last_name: KHAJEH FARD
+middle_names: Khajeh
+last_name: FARD
 dob: '1969-11-22'
 title: Head of Iran Aviation Industries Organization
 sanction_status: Sanctioned
