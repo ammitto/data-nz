@@ -1,4 +1,3 @@
----
 type: Entity
 unique_identifier: ENT-436
 name: Russian Ministry of Defence 33rd Central Scientific Research and Testing Institute
@@ -11,5 +10,4 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Entity of military importance to Russia's invasion
-  of Ukraine
+general_rationale_for_sanction: Entity of military importance to Russia's invasion of Ukraine

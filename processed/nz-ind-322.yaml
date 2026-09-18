@@ -1,4 +1,3 @@
----
 type: Individual
 unique_identifier: IND-322
 first_name: Zhanna
@@ -15,5 +14,4 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Member of the State Duma who voted in favour of Russian
-  recognition of the independence of Donetsk and Luhansk on 15th February 2022
+general_rationale_for_sanction: Member of the State Duma who voted in favour of Russian recognition of the independence of Donetsk and Luhansk on 15th February 2022

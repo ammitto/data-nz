@@ -1,9 +1,7 @@
----
 type: Entity
 unique_identifier: Ent-489
 name: Foreign Trade Bank
-alias_alternate_spellings: FTB; Mooyokbank; Korea Trading Bank; North Korea’s Foreign
-  Trade Bank; Foreign Trade Bank of the Democratic People’s Republic of Korea
+alias_alternate_spellings: FTB; Mooyokbank; Korea Trading Bank; North Korea’s Foreign Trade Bank; Foreign Trade Bank of the Democratic People’s Republic of Korea
 sanction_status: Sanctioned
 date_of_sanction: '2025-10-30'
 travel_ban: 'No'

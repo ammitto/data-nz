@@ -1,4 +1,3 @@
----
 type: Entity
 unique_identifier: ENT-387
 name: JSC 224th Flight Unit State Airlines
@@ -10,5 +9,4 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Entity of military significance to Russia illegal
-  invasion of Ukraine
+general_rationale_for_sanction: Entity of military significance to Russia illegal invasion of Ukraine

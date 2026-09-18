@@ -1,12 +1,10 @@
----
 type: Individual
 unique_identifier: IND-997
 first_name: Vadim
 middle_names: Ivanovich
 last_name: DENISENKO
 dob: '1967-09-03'
-title: Commander of the Special Operations Forces of the Armed Forces of the Republic
-  of Belarus
+title: Commander of the Special Operations Forces of the Armed Forces of the Republic of Belarus
 sanction_status: Sanctioned
 date_of_sanction: '2022-11-22'
 travel_ban: 'Yes'

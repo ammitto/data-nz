@@ -1,9 +1,7 @@
----
 type: Entity
 unique_identifier: Ent-519
 name: Asia Marine Crown Agency
-alias_alternate_spellings: Asia Marine Crown Shipping Agency; Asia Marine Crown Shipping
-  Agency Services Company; Taj Daryaye Asia; AMCA
+alias_alternate_spellings: Asia Marine Crown Shipping Agency; Asia Marine Crown Shipping Agency Services Company; Taj Daryaye Asia; AMCA
 sanction_status: Sanctioned
 date_of_sanction: '2026-05-07'
 travel_ban: 'No'
@@ -12,5 +10,4 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Entity involved in the transfer of UAV's from Iran
-  to Russia
+general_rationale_for_sanction: Entity involved in the transfer of UAV's from Iran to Russia

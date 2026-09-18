@@ -1,12 +1,10 @@
----
 type: Individual
 unique_identifier: IND-752
 first_name: 'Yury  '
 middle_names: Petrovich
 last_name: TRUTNEV
 dob: '1956-03-01'
-title: Member of the Security Council; Presidential Envoy to the Far Eastern Federal
-  District
+title: Member of the Security Council; Presidential Envoy to the Far Eastern Federal District
 sanction_status: Sanctioned
 date_of_sanction: '2022-09-28'
 travel_ban: 'Yes'

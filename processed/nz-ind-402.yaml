@@ -1,12 +1,10 @@
----
 type: Individual
 unique_identifier: IND-402
 first_name: 'Andrei '
 middle_names: Valeryanovich
 last_name: Burdyko
 dob: '1973-06-09'
-title: 'Deputy Minister of Defence for Logistics and Chief of Logistics of the Belarusian
-  Armed Forces '
+title: 'Deputy Minister of Defence for Logistics and Chief of Logistics of the Belarusian Armed Forces '
 sanction_status: Sanctioned
 date_of_sanction: '2022-03-18'
 date_of_additional_sanction: '2022-05-17'
@@ -16,6 +14,4 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: 'Linked to the leadership and governance of the Belarusian
-  military, contributing to the undermining of Ukraine''s sovereignty and territorial
-  integrity '
+general_rationale_for_sanction: 'Linked to the leadership and governance of the Belarusian military, contributing to the undermining of Ukraine''s sovereignty and territorial integrity '

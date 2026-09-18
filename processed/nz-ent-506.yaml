@@ -1,9 +1,7 @@
----
 type: Entity
 unique_identifier: Ent-506
 name: Korea Ryonbong General Corporation
-alias_alternate_spellings: Korea Yonbong General Corporation; Lyongksan General Trading
-  Corporation
+alias_alternate_spellings: Korea Yonbong General Corporation; Lyongksan General Trading Corporation
 sanction_status: Sanctioned
 date_of_sanction: '2026-02-20'
 travel_ban: 'No'

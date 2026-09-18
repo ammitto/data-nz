@@ -1,9 +1,7 @@
----
 type: Entity
 unique_identifier: Ent-493
 name: Russian Maritime Register of Shipping
-alias_alternate_spellings: Federal Autonomous Institution Russian Maritime Register
-  Of Shipping; RMRS
+alias_alternate_spellings: Federal Autonomous Institution Russian Maritime Register Of Shipping; RMRS
 sanction_status: Sanctioned
 date_of_sanction: '2025-10-30'
 travel_ban: 'No'

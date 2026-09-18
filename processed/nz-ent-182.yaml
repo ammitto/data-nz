@@ -1,10 +1,7 @@
----
 type: Entity
 unique_identifier: ENT-182
 name: PJSC MBDB ISKRA
-alias_alternate_spellings: 'Aktsionernoe Obshchestvo Mashinostroitelnoe Konstruktorskoe
-  Byuro Iskra Imeni Ivana Ivanovicha Kartukova; AO MKB ISKRA; Iskra Engineering Design
-  Bureau JSC named after I.I. Kartukov '
+alias_alternate_spellings: 'Aktsionernoe Obshchestvo Mashinostroitelnoe Konstruktorskoe Byuro Iskra Imeni Ivana Ivanovicha Kartukova; AO MKB ISKRA; Iskra Engineering Design Bureau JSC named after I.I. Kartukov '
 sanction_status: Sanctioned
 date_of_sanction: '2022-03-18'
 date_of_additional_sanction: '2022-05-03'
@@ -14,5 +11,4 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Involved in the undermining of Ukraine’s sovereignty
-  and territorial integrity
+general_rationale_for_sanction: Involved in the undermining of Ukraine’s sovereignty and territorial integrity

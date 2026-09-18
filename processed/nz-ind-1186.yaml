@@ -1,4 +1,3 @@
----
 type: Individual
 unique_identifier: IND-1186
 first_name: Leyla
@@ -14,5 +13,4 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Involved in the undermining of Ukraine’s sovereignty
-  and territorial integrity
+general_rationale_for_sanction: Involved in the undermining of Ukraine’s sovereignty and territorial integrity

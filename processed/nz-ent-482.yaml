@@ -1,4 +1,3 @@
----
 type: Entity
 unique_identifier: ENT-482
 name: Farzanegan Propulsion Systems Design Bureau
@@ -11,5 +10,4 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Iranian Actor involved in providing Russia military
-  assistance
+general_rationale_for_sanction: Iranian Actor involved in providing Russia military assistance

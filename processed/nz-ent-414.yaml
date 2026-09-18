@@ -1,4 +1,3 @@
----
 type: Entity
 unique_identifier: ENT-414
 name: 'All Russia ‘Young Army’ Military Patriotic Social Movement '
@@ -11,5 +10,4 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Entity involved in the forced relocation of Ukrainian
-  children into Russia and Russia-occupied territory
+general_rationale_for_sanction: Entity involved in the forced relocation of Ukrainian children into Russia and Russia-occupied territory

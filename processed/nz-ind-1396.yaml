@@ -1,4 +1,3 @@
----
 type: Individual
 unique_identifier: IND-1396
 first_name: 'Aleksandr '
@@ -6,8 +5,7 @@ middle_names: Alexeyevich
 last_name: MOISEYEV
 dob: '1962-04-16'
 title: Commander in Chief of the Russian Navy
-alias_alternate_spellings: 'Alexander MOISEEV; Alexandr Alexeevich MOISEEV; Aleksander
-  Alekseevich MOISEEV; Alexander Alexeyevich MOISEYEV '
+alias_alternate_spellings: 'Alexander MOISEEV; Alexandr Alexeevich MOISEEV; Aleksander Alekseevich MOISEEV; Alexander Alexeyevich MOISEYEV '
 sanction_status: Sanctioned
 date_of_sanction: '2026-08-07'
 travel_ban: 'Yes'
@@ -16,5 +14,4 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Involved in the undermining of Ukraine’s sovereignty
-  and territorial integrity
+general_rationale_for_sanction: Involved in the undermining of Ukraine’s sovereignty and territorial integrity

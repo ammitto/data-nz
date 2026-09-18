@@ -1,4 +1,3 @@
----
 type: Entity
 unique_identifier: Ent-520
 name: All-Russian public-state movement of children and youth "Movement of the First"
@@ -11,5 +10,4 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: 'Involved in the forced relocation, re-education and
-  militarisation of Ukraininan children '
+general_rationale_for_sanction: 'Involved in the forced relocation, re-education and militarisation of Ukraininan children '

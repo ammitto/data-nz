@@ -1,8 +1,6 @@
----
 type: Entity
 unique_identifier: ENT-415
-name: The Federal State Budget Educational Institution Artek International Children’s
-  Centre
+name: The Federal State Budget Educational Institution Artek International Children’s Centre
 alias_alternate_spellings: Artek
 sanction_status: Sanctioned
 date_of_sanction: '2024-05-17'
@@ -12,5 +10,4 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Entity involved in the forced relocation of Ukrainian
-  children into Russia and Russia-occupied territory
+general_rationale_for_sanction: Entity involved in the forced relocation of Ukrainian children into Russia and Russia-occupied territory

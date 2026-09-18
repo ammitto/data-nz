@@ -1,4 +1,3 @@
----
 type: Entity
 unique_identifier: ENT-28
 name: Internet Research Agency
@@ -10,6 +9,4 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Involved in the dissemination of disinformation which
-  contributes to or supports the undermining of Ukraine's sovereignty and territorial
-  integrity
+general_rationale_for_sanction: Involved in the dissemination of disinformation which contributes to or supports the undermining of Ukraine's sovereignty and territorial integrity

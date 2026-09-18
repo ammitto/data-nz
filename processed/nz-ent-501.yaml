@@ -1,9 +1,7 @@
----
 type: Entity
 unique_identifier: Ent-501
 name: Kazanskii Gosudarstvennyi Kazennyi Porokhovoi Zavod
-alias_alternate_spellings: KGKPS; Kazan State Treasury Gunpowder Factory Federal State
-  Enterprise ; Federal State Enterprise Kazan Federal State Gunpowder Plant
+alias_alternate_spellings: KGKPS; Kazan State Treasury Gunpowder Factory Federal State Enterprise ; Federal State Enterprise Kazan Federal State Gunpowder Plant
 sanction_status: Sanctioned
 date_of_sanction: '2026-02-20'
 travel_ban: 'No'
@@ -12,5 +10,4 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Involved in the supply and manufacturing of military
-  weapons which directly contributes to the development of Russian military projects
+general_rationale_for_sanction: Involved in the supply and manufacturing of military weapons which directly contributes to the development of Russian military projects
