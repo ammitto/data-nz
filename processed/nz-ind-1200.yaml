@@ -1,3 +1,4 @@
+---
 type: Individual
 unique_identifier: IND-1200
 first_name: 'Artem '
@@ -14,5 +15,7 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: A senior leader who has influence over entities which perform a function in a sector that is of economic and strategic significance to the government of Russia's illegal invasion of Ukraine
+general_rationale_for_sanction: A senior leader who has influence over entities which
+  perform a function in a sector that is of economic and strategic significance to
+  the government of Russia's illegal invasion of Ukraine
 associates_relatives: Son of Yury CHAIKA

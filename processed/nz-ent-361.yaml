@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: ENT-361
 name: UVICOM LTD
-alias_alternate_spellings: BSHCHESTVO S OGRANICHENNOI OTVETSTVENNOSTYU NAUCHNO-PROIZVODSTVENNY TSENTR UGLERODNYE VOLOKNA I KOMPOZITY; UVIKOM OOO
+alias_alternate_spellings: BSHCHESTVO S OGRANICHENNOI OTVETSTVENNOSTYU NAUCHNO-PROIZVODSTVENNY
+  TSENTR UGLERODNYE VOLOKNA I KOMPOZITY; UVIKOM OOO
 sanction_status: Sanctioned
 date_of_sanction: '2023-05-05'
 travel_ban: 'No'
@@ -10,4 +12,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Involved in the undermining of Ukraine’s sovereignty and territorial integrity
+general_rationale_for_sanction: Involved in the undermining of Ukraine’s sovereignty
+  and territorial integrity

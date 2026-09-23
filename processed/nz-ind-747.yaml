@@ -1,3 +1,4 @@
+---
 type: Individual
 unique_identifier: IND-747
 first_name: 'Mikhail '
@@ -13,4 +14,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Person of influence linked to the Russian administration including significant economic actors
+general_rationale_for_sanction: Person of influence linked to the Russian administration
+  including significant economic actors

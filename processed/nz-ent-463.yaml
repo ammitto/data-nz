@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: ENT-463
 name: TSMRBANK, OOO
-alias_alternate_spellings: CMRBank; Bank Centre for International Settlements LLC; BANK TSENTR MEZHDUNARODNYKH RASCHETOV OBSHESTVO S ORGANICHENNOI OTVETSTEVENNOSTYU
+alias_alternate_spellings: CMRBank; Bank Centre for International Settlements LLC;
+  BANK TSENTR MEZHDUNARODNYKH RASCHETOV OBSHESTVO S ORGANICHENNOI OTVETSTEVENNOSTYU
 sanction_status: Sanctioned
 date_of_sanction: '2025-02-21'
 travel_ban: 'No'
@@ -10,4 +12,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Involved in financial activities in Russian occupied territory of Ukraine and with the DPRK.
+general_rationale_for_sanction: Involved in financial activities in Russian occupied
+  territory of Ukraine and with the DPRK.

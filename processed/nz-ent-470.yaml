@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: ENT-470
 name: Iran Aircraft Manufacturing Company
-alias_alternate_spellings: Iran Aircraft Manufacturing Industries Corporation; Iran Aircraft Manufacturing Industrial Company; HESA; Shahin Co
+alias_alternate_spellings: Iran Aircraft Manufacturing Industries Corporation; Iran
+  Aircraft Manufacturing Industrial Company; HESA; Shahin Co
 sanction_status: Sanctioned
 date_of_sanction: '2025-06-19'
 travel_ban: 'No'
@@ -10,4 +12,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Iranian Actor involved in providing Russia military assistance
+general_rationale_for_sanction: Iranian Actor involved in providing Russia military
+  assistance

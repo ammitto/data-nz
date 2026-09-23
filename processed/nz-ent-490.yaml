@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: Ent-490
 name: Korea Kwangson Banking Corporation
-alias_alternate_spellings: KKBC; BTSB; Border Trade Settlement Bank; DPRK Border Trade Settlement Bank
+alias_alternate_spellings: KKBC; BTSB; Border Trade Settlement Bank; DPRK Border Trade
+  Settlement Bank
 sanction_status: Sanctioned
 date_of_sanction: '2025-10-30'
 travel_ban: 'No'

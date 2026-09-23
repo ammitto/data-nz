@@ -1,3 +1,4 @@
+---
 type: Individual
 unique_identifier: IND-567
 first_name: Mohmad
@@ -14,4 +15,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Member of Federation Council who voted in favour of Russian recognition of the independence of Donetsk and Luhansk on 22 February 2022
+general_rationale_for_sanction: Member of Federation Council who voted in favour of
+  Russian recognition of the independence of Donetsk and Luhansk on 22 February 2022

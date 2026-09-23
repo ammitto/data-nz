@@ -1,8 +1,9 @@
+---
 type: Entity
 unique_identifier: ENT-241
 name: Public Joint Stock Company Severstal
-alias_alternate_spellings: |-2
-  
+alias_alternate_spellings: |2-
+
   Severstal Ltd
 sanction_status: Sanctioned
 date_of_sanction: '2022-11-22'

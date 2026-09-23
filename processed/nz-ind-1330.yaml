@@ -1,3 +1,4 @@
+---
 type: Individual
 unique_identifier: IND-1330
 first_name: Hossein
@@ -13,4 +14,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Iranian Actor involved in providing Russia military assistance
+general_rationale_for_sanction: Iranian Actor involved in providing Russia military
+  assistance

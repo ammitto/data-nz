@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: ENT-442
 name: Limited Liability Company Stroygazmontazh
-alias_alternate_spellings: Stroygazmontazh LLC; Stroygazmontazh; Stroygazmontazh Corporation; Stroygazmontazh Group; SGM
+alias_alternate_spellings: Stroygazmontazh LLC; Stroygazmontazh; Stroygazmontazh Corporation;
+  Stroygazmontazh Group; SGM
 sanction_status: Sanctioned
 date_of_sanction: '2025-02-21'
 travel_ban: 'No'

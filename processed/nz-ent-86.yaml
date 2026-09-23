@@ -1,7 +1,11 @@
+---
 type: Entity
 unique_identifier: ENT-86
-name: Izhevsk Unmanned Systems Research and Production Associated Limited Liability Company
-alias_alternate_spellings: " OOO NAUCHNO-PROIZVODSTVENNOYE OBYEDINENIYE IZHEVSKIYE BESPILOTNYE SISTEMY; LLC RESEARCH AND PRODUCTION ASSOCIATION IZHBS; IZHMASH-UNMANNED SYSTEMS COMPANY"
+name: Izhevsk Unmanned Systems Research and Production Associated Limited Liability
+  Company
+alias_alternate_spellings: " OOO NAUCHNO-PROIZVODSTVENNOYE OBYEDINENIYE IZHEVSKIYE
+  BESPILOTNYE SISTEMY; LLC RESEARCH AND PRODUCTION ASSOCIATION IZHBS; IZHMASH-UNMANNED
+  SYSTEMS COMPANY"
 address: Ordzhonikidze St., 2 Izhevsk Udmurtia 426063 Russia
 sanction_status: Sanctioned
 date_of_sanction: '2022-08-02'
@@ -11,4 +15,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Involved in the undermining of Ukraine’s sovereignty and territorial integrity
+general_rationale_for_sanction: Involved in the undermining of Ukraine’s sovereignty
+  and territorial integrity

@@ -1,3 +1,4 @@
+---
 type: Entity
 unique_identifier: ENT-426
 name: Pishro Sanat Aseman Sharif Company
@@ -10,4 +11,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Involved in the production and supply  of UAVs from Iran to Russia
+general_rationale_for_sanction: Involved in the production and supply  of UAVs from
+  Iran to Russia

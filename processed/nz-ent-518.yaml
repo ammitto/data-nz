@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: Ent-518
 name: Sahara Thunder
-alias_alternate_spellings: Tondar Sahara Co; Tondar Sahra Private Limited Company; Desert Thunder Company
+alias_alternate_spellings: Tondar Sahara Co; Tondar Sahra Private Limited Company;
+  Desert Thunder Company
 sanction_status: Sanctioned
 date_of_sanction: '2026-05-07'
 travel_ban: 'No'
@@ -10,4 +12,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Involved in the production and supply  of UAVs from Iran to Russia
+general_rationale_for_sanction: Involved in the production and supply  of UAVs from
+  Iran to Russia

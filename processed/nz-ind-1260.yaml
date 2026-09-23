@@ -1,3 +1,4 @@
+---
 type: Individual
 unique_identifier: IND-1260
 first_name: Vitaliy
@@ -14,4 +15,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Involved in the forced relocation of Ukrainian children into Russia and Russia-occupied territory
+general_rationale_for_sanction: Involved in the forced relocation of Ukrainian children
+  into Russia and Russia-occupied territory

@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: Ent-495
 name: Belneftekhim – Belarusian State Concern for Oil and Chemistry
-alias_alternate_spellings: Belneftekhim Concern; Belarusian State Concern for Oil and Chemistry; Belneftekhim
+alias_alternate_spellings: Belneftekhim Concern; Belarusian State Concern for Oil
+  and Chemistry; Belneftekhim
 sanction_status: Sanctioned
 date_of_sanction: '2025-10-30'
 travel_ban: 'No'
@@ -10,4 +12,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Belarussian entity involved in Russia's illicit oil trade
+general_rationale_for_sanction: Belarussian entity involved in Russia's illicit oil
+  trade

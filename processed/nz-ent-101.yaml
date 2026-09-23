@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: ENT-101
 name: Joint Stock Company Research and Development Enterprise Almaz
-alias_alternate_spellings: JOINT STOCK COMPANY RESEARCH AND PRODUCTION ENTERPRISE ALMAZ; JSC RPE ALMAZ; AO NPP ALMAZ; SCIENTIFIC MANUFACTURING ENTERPRISE ALMAZ
+alias_alternate_spellings: JOINT STOCK COMPANY RESEARCH AND PRODUCTION ENTERPRISE
+  ALMAZ; JSC RPE ALMAZ; AO NPP ALMAZ; SCIENTIFIC MANUFACTURING ENTERPRISE ALMAZ
 address: Panfilova st., 1 Saratov  410033 Russia
 sanction_status: Sanctioned
 date_of_sanction: '2022-08-02'
@@ -11,4 +13,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Involved in the undermining of Ukraine’s sovereignty and territorial integrity
+general_rationale_for_sanction: Involved in the undermining of Ukraine’s sovereignty
+  and territorial integrity

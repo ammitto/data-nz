@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: ENT-444
 name: Surgutneftegas
-alias_alternate_spellings: Open Joint Stock Company Surgutneftegas; Surgutneftegas OAO
+alias_alternate_spellings: Open Joint Stock Company Surgutneftegas; Surgutneftegas
+  OAO
 sanction_status: Sanctioned
 date_of_sanction: '2025-02-21'
 travel_ban: 'No'

@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: ENT-74
 name: Belspetsvneshtechnika SFTUE
-alias_alternate_spellings: State-Owned Foreign Trade Unitary Enterprise Belspetsvneshtechnika; and BSVT
+alias_alternate_spellings: State-Owned Foreign Trade Unitary Enterprise Belspetsvneshtechnika;
+  and BSVT
 address: 8 St. Kalinovskogo, Minsk
 sanction_status: Sanctioned
 date_of_sanction: '2022-06-08'

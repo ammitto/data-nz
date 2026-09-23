@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: ENT-440
 name: Avangard
-alias_alternate_spellings: 'Educational and Methodological Centre “Avangard”; Avangard Center '
+alias_alternate_spellings: 'Educational and Methodological Centre “Avangard”; Avangard
+  Center '
 sanction_status: Sanctioned
 date_of_sanction: '2025-02-21'
 travel_ban: 'No'
@@ -10,4 +12,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: 'Involved in the relocation and reeducation of Ukrainian children. '
+general_rationale_for_sanction: 'Involved in the relocation and reeducation of Ukrainian
+  children. '

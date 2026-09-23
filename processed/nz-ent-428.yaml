@@ -1,3 +1,4 @@
+---
 type: Entity
 unique_identifier: ENT-428
 name: 'Belarusian Optical-Mechanical Association '
@@ -10,4 +11,6 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Belarusian entity involved in the supply and manufacturing of military weapons which directly contributes to the development of Russian military projects
+general_rationale_for_sanction: Belarusian entity involved in the supply and manufacturing
+  of military weapons which directly contributes to the development of Russian military
+  projects

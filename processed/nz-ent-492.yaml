@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: Ent-492
 name: OJSC TSRY
-alias_alternate_spellings: Tuapse Sea Commercial Port; TSCP; Joint-Stock Company “Tuapse Maritime Trade Port”
+alias_alternate_spellings: Tuapse Sea Commercial Port; TSCP; Joint-Stock Company “Tuapse
+  Maritime Trade Port”
 sanction_status: Sanctioned
 date_of_sanction: '2025-10-30'
 travel_ban: 'No'

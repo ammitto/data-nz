@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: Ent-508
 name: Alevkurp OJSC
-alias_alternate_spellings: Open Joint Stock Company Alevkurp; Otkrytoe Aktsionernoe Obschestvo Alevkurp
+alias_alternate_spellings: Open Joint Stock Company Alevkurp; Otkrytoe Aktsionernoe
+  Obschestvo Alevkurp
 sanction_status: Sanctioned
 date_of_sanction: '2026-02-20'
 travel_ban: 'No'

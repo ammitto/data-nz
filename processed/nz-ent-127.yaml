@@ -1,7 +1,10 @@
+---
 type: Entity
 unique_identifier: ENT-127
 name: Open Joint Stock Company Moscow Machine Building Plant Avangard
-alias_alternate_spellings: JOINT STOCK COMPANY MOSKOVSKIY MASHINOSTROITELNIY ZAVOD AVANGARD; JSC MOSCOW MACHINERY BUILDING PLANT AVANGARD; OAO MMZ AVANGARD; OJSC MOSCOW MACHINERY BUILDING PLANT AVANGARD
+alias_alternate_spellings: JOINT STOCK COMPANY MOSKOVSKIY MASHINOSTROITELNIY ZAVOD
+  AVANGARD; JSC MOSCOW MACHINERY BUILDING PLANT AVANGARD; OAO MMZ AVANGARD; OJSC MOSCOW
+  MACHINERY BUILDING PLANT AVANGARD
 address: UI. Klary Tsetkin 33 Moscow  125130 Russia
 sanction_status: Sanctioned
 date_of_sanction: '2022-08-02'
@@ -11,4 +14,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Involved in the undermining of Ukraine’s sovereignty and territorial integrity
+general_rationale_for_sanction: Involved in the undermining of Ukraine’s sovereignty
+  and territorial integrity

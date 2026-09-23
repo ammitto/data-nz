@@ -1,3 +1,4 @@
+---
 type: Individual
 unique_identifier: IND-443
 first_name: 'Yevgeniy '
@@ -14,4 +15,6 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Linked to an organisation supporting the dissemination of disinformation which contributes to or supports the undermining of Ukraine's sovereignty and territorial integrity
+general_rationale_for_sanction: Linked to an organisation supporting the dissemination
+  of disinformation which contributes to or supports the undermining of Ukraine's
+  sovereignty and territorial integrity

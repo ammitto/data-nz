@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: ENT-97
 name: Joint Stock Company Production Association Strela
-alias_alternate_spellings: JSC PRODUCTION ASSOCIATION STRELA; STRELA PA; JSC PRODUCTION OBYEDINENIYE STRELA; JSC PROIZVODSTVENNOYE OBYEDINENIYE STRELA
+alias_alternate_spellings: JSC PRODUCTION ASSOCIATION STRELA; STRELA PA; JSC PRODUCTION
+  OBYEDINENIYE STRELA; JSC PROIZVODSTVENNOYE OBYEDINENIYE STRELA
 address: 26, Shevchenko str. Orenburg  460005 Russia
 sanction_status: Sanctioned
 date_of_sanction: '2022-08-02'
@@ -11,4 +13,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Involved in the undermining of Ukraine’s sovereignty and territorial integrity
+general_rationale_for_sanction: Involved in the undermining of Ukraine’s sovereignty
+  and territorial integrity

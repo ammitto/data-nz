@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: Ent-491
 name: Novorossiysk Commercial Sea Port
-alias_alternate_spellings: NCSP; Public Joint-Stock Company “Novorossiysk Commercial Sea Port”
+alias_alternate_spellings: NCSP; Public Joint-Stock Company “Novorossiysk Commercial
+  Sea Port”
 sanction_status: Sanctioned
 date_of_sanction: '2025-10-30'
 travel_ban: 'No'

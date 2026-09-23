@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: Ent-523
 name: 'OOO TK Fly Bridge '
-alias_alternate_spellings: 'Fly Bridge TC Kft; Limited Liability Company Technological Company Fly Bridge '
+alias_alternate_spellings: 'Fly Bridge TC Kft; Limited Liability Company Technological
+  Company Fly Bridge '
 sanction_status: Sanctioned
 date_of_sanction: '2026-08-07'
 travel_ban: 'No'
@@ -10,4 +12,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Involved in the supply and manufacturing of military weapons which directly contributes to the development of Russian military projects
+general_rationale_for_sanction: Involved in the supply and manufacturing of military
+  weapons which directly contributes to the development of Russian military projects

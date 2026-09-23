@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: ENT-311
 name: KONTSERN ORION OAO
-alias_alternate_spellings: Open Joint-Stock Company Kontsern Orion, Orion Concern Open Joint Stock Company
+alias_alternate_spellings: Open Joint-Stock Company Kontsern Orion, Orion Concern
+  Open Joint Stock Company
 sanction_status: Sanctioned
 date_of_sanction: '2022-06-08'
 travel_ban: 'No'
@@ -10,4 +12,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Involved in the undermining of Ukraine’s sovereignty and territorial integrity
+general_rationale_for_sanction: Involved in the undermining of Ukraine’s sovereignty
+  and territorial integrity

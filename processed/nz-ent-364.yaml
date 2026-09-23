@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: ENT-364
 name: Bank Dabrabyt
-alias_alternate_spellings: Open Joint Stock Company "Bank Dabrabit"; Bank Dabrabyt Joint-Stock Company
+alias_alternate_spellings: Open Joint Stock Company "Bank Dabrabit"; Bank Dabrabyt
+  Joint-Stock Company
 sanction_status: Sanctioned
 date_of_sanction: '2023-07-21'
 travel_ban: 'No'

@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: ENT-434
 name: 'Russian Ministry of Defence 27th Scientific Centre '
-alias_alternate_spellings: 27th Central Research Institute of the Ministry of Defence of the Russian Federation
+alias_alternate_spellings: 27th Central Research Institute of the Ministry of Defence
+  of the Russian Federation
 sanction_status: Sanctioned
 date_of_sanction: '2024-11-29'
 travel_ban: 'No'
@@ -10,4 +12,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Entity involved in the development of Russian military projects
+general_rationale_for_sanction: Entity involved in the development of Russian military
+  projects

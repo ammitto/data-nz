@@ -1,3 +1,4 @@
+---
 type: Individual
 unique_identifier: IND-974
 first_name: Nikolay
@@ -13,4 +14,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Member of the State Duma that meets the description of the class of persons sanctioned in the Regulations
+general_rationale_for_sanction: Member of the State Duma that meets the description
+  of the class of persons sanctioned in the Regulations

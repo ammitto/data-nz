@@ -1,3 +1,4 @@
+---
 type: Entity
 unique_identifier: ENT-397
 name: Ostec-ST Ltd
@@ -9,4 +10,5 @@ aircraft_ban: 'Yes'
 ship_ban: 'Yes'
 service_prohibition: 'Yes'
 dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Entity of strategic or economic significance to Russia's illegal invasion of Ukraine
+general_rationale_for_sanction: Entity of strategic or economic significance to Russia's
+  illegal invasion of Ukraine

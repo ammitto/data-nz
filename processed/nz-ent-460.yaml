@@ -1,7 +1,9 @@
+---
 type: Entity
 unique_identifier: ENT-460
 name: Missile General Bureau
-alias_alternate_spellings: DPRK Military Branch dedicated to Ballistic Missile Research and Production
+alias_alternate_spellings: DPRK Military Branch dedicated to Ballistic Missile Research
+  and Production
 sanction_status: Sanctioned
 date_of_sanction: '2025-02-21'
 travel_ban: 'No'
