@@ -1,9 +1,9 @@
 ---
 source: nz
 count: 2111
-fetched_at: '2026-10-08T15:39:02Z'
+fetched_at: '2026-10-09T12:16:47Z'
 schema: ammitto:sources:nz:v1
-pruned: 1
+pruned: 0
 files:
 - nz-ent-1.yaml
 - nz-ent-10.yaml
