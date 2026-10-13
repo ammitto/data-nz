@@ -1,246 +1,129 @@
-= New Zealand Russia Sanctions Register
+= Ammitto New Zealand Russia sanctions data
 
-image:https://img.shields.io/github/license/ammitto/data-nz.svg[License]
-image:https://github.com/ammitto/data-nz/actions/workflows/fetch.yml/badge.svg["Update Status", link="https://github.com/ammitto/data-nz/actions/workflows/fetch.yml"]
+image:https://github.com/ammitto/data-nz/actions/workflows/fetch.yml/badge.svg["Fetch Data", link="https://github.com/ammitto/data-nz/actions/workflows/fetch.yml"]
 
-== Purpose
-
-This repository contains sanctioned individuals, entities, and vessels from the
-New Zealand Russia Sanctions Register, maintained by the Ministry of Foreign
-Affairs and Trade (MFAT).
+This repository stores New Zealand's Russia Sanctions Register as YAML for
+Ammitto. The records in `processed/` cover individuals, entities and ships
+listed by the Ministry of Foreign Affairs and Trade (MFAT).
 
 == Source
 
-* **Authority**: New Zealand Ministry of Foreign Affairs and Trade (MFAT)
-* **URL**: https://www.mfat.govt.nz/en/trade-and-country-services/sanctions/
-* **XLSX Download**: https://www.mfat.govt.nz/assets/Countries-and-Regions/Europe/Ukraine/Russia-Sanctions-Register.xlsx
-* **Format**: XLSX (multiple sheets)
-* **Update Frequency**: As updated by MFAT
-* **Country Code**: NZ
+* Publisher: Ministry of Foreign Affairs and Trade (MFAT), New Zealand
+* List page: https://www.mfat.govt.nz/en/countries-and-regions/europe/ukraine/russian-invasion-of-ukraine/sanctions/russia-sanctions-register
+* File downloaded: https://www.mfat.govt.nz/assets/Countries-and-Regions/Europe/Ukraine/Russia-Sanctions-Register.xlsx
 
-== Legal Basis
+The register gives details of designations made under the Russia Sanctions
+Regulations 2022.
 
-These sanctions are implemented under:
+== Contents
 
-* Russia Sanctions Act 2022
-* Russia Sanctions Regulations 2022
+`processed/` holds one file per designation, named after the register's
+unique identifier: `processed/nz-ind-100.yaml` is `IND-100`. Identifiers start
+with `IND` for individuals, `ENT` for entities and `SHP` for ships.
 
-Note: New Zealand also implements UN sanctions, but those are covered by the
-https://github.com/ammitto/data-un[data-un] repository.
+`processed/_index.yaml` lists every file, with the time of the last fetch.
 
-== Directory Structure
+The keys are the register's columns, each present only when the register
+gives a value. Yes or no columns are kept as the text published (`Yes`,
+`No`, and sometimes lower case).
 
-```
-data-nz/
-├── processed/         # Processed YAML files (one per entity)
-└── README.adoc        # This file
-```
-
-== Data Contents
-
-The register contains three types of designated persons:
-
-* **Individuals**: Natural persons subject to sanctions
-* **Entities**: Organizations and companies subject to sanctions
-* **Ships**: Vessels subject to ship bans
-
-== Data Format
-
-Individual:
-
-[source,yaml]
-----
-type: Individual
-unique_identifier: IND-1
-first_name: Vladimir
-middle_names: Vladimirovich
-last_name: Putin
-dob: '1952-10-07'
-title: President of the Russian Federation
-sanction_status: Sanctioned
-date_of_sanction: '2022-03-18'
-travel_ban: 'Yes'
-asset_freeze: 'Yes'
-aircraft_ban: 'Yes'
-ship_ban: 'Yes'
-----
-
-Ship:
-
-[source,yaml]
-----
-type: Ship
-unique_identifier: SHP-1
-imo_number: '9288693'
-name: Andaman Skies
-date_of_sanction: '2025-06-19'
-ship_ban: 'Yes'
-----
-
-== Source Data Format
-
-The processed YAML files in `processed/` follow this structure:
-
-=== Entity (Organization)
-[source,yaml]
-----
-type: Entity
-unique_identifier: ENT-1
-name: JSC 558 Aircraft Repair Plant
-alias_alternate_spellings: JSC 558 ARP
-sanction_status: Sanctioned
-date_of_sanction: '2022-03-18'
-travel_ban: 'No'
-asset_freeze: 'Yes'
-aircraft_ban: 'Yes'
-ship_ban: 'Yes'
-service_prohibition: 'Yes'
-dealing_with_securities: 'Yes'
-general_rationale_for_sanction: Involved in undermining Ukraine's sovereignty
-----
-
-=== Individual (Person)
-[source,yaml]
-----
-type: Individual
-unique_identifier: IND-1
-name: IVAN IVANOV
-date_of_sanction: '2022-04-12'
-travel_ban: 'Yes'
-asset_freeze: 'Yes'
-----
-
-=== Vessel
-[source,yaml]
-----
-type: Ship
-unique_identifier: SHP-1
-imo_number: '9288693'
-name: Andaman Skies
-date_of_sanction: '2025-06-19'
-ship_ban: 'Yes'
-----
-
-=== Field Definitions
-
-[cols="1,4"]
+[cols="1,1,3"]
 |===
-| Field | Description
+| Key | Type | Meaning
 
-| `type`
-| Entity type: Entity, Individual, or Ship
-
-| `unique_identifier`
-| Unique NZ identifier (ENT-x, IND-x, SHP-x)
-
-| `name`
-| Primary name of the entity
-
-| `imo_number`
-| IMO number for vessels
-
-| `sanction_status`
-| Status: Sanctioned, Delisted
-
-| `date_of_sanction`
-| Date sanctions were applied
-
-| `travel_ban`
-| Travel ban indicator (Yes/No)
-
-| `asset_freeze`
-| Asset freeze indicator (Yes/No)
-
-| `aircraft_ban`
-| Aircraft ban indicator (Yes/No)
-
-| `ship_ban`
-| Ship ban indicator (Yes/No)
-
-| `general_rationale_for_sanction`
-| Reason for sanction
-
+| `type` | string | `Individual`, `Entity` or `Ship`
+| `unique_identifier` | string | Register identifier, such as `IND-100`
+| `first_name`, `middle_names`, `last_name` | string | Individuals: name
+| `name` | string | Entities and ships: name
+| `alias_alternate_spellings` | string | Other spellings of the name
+| `alias_alternate_names` | string | Ships: other names
+| `title` | string | Individuals: position or title
+| `dob` | string | Individuals: date of birth, `YYYY-MM-DD`
+| `place_of_birth` | string | Individuals: place of birth
+| `citizenship`, `citizenship_2`, `citizenship_3` | string | Individuals: citizenships
+| `passport_number` | string | Individuals: passport numbers
+| `associates_relatives` | string | Individuals: stated family or business links
+| `address` | string | Address
+| `imo_number` | string | Ships: IMO number
+| `sanction_status` | string | Status in the register, such as `Sanctioned`
+| `date_of_sanction` | string | Date of designation, `YYYY-MM-DD`
+| `date_of_additional_sanction` | string | Date further sanctions were added
+| `travel_ban`, `asset_freeze`, `aircraft_ban`, `ship_ban`, `service_prohibition`, `dealing_with_securities` | string | Whether each measure applies
+| `general_rationale_for_sanction` | string | Reason given for the designation
 |===
 
-== Harmonized Data Format
+== Using the data
 
-After harmonization, entities are transformed into JSON-LD format:
+Clone or download this repository and run either example from its root
+directory.
 
-=== Entity (JSON-LD)
-[source,json]
+Ruby:
+
+[source,ruby]
 ----
-{
-  "@context": "https://www.ammitto.org/schema/v1/context.jsonld",
-  "@id": "https://www.ammitto.org/entity/nz/ENT-1",
-  "@type": "OrganizationEntity",
-  "names": [
-    {
-      "@type": "NameVariant",
-      "fullName": "JSC 558 Aircraft Repair Plant",
-      "script": "Latn",
-      "isPrimary": true
-    }
-  ],
-  "sanctionEntries": [
-    {
-      "@id": "https://www.ammitto.org/entry/nz/ENT-1",
-      "@type": "SanctionEntry",
-      "authority": {
-        "@id": "https://www.ammitto.org/authority/nz",
-        "name": "New Zealand"
-      },
-      "regime": {
-        "@type": "SanctionRegime",
-        "code": "RUSSIA",
-        "name": "Russia Sanctions"
-      },
-      "effects": [
-        {
-          "@type": "SanctionEffect",
-          "effectType": "asset_freeze",
-          "scope": "full"
-        },
-        {
-          "@type": "SanctionEffect",
-          "effectType": "travel_ban",
-          "scope": "full"
-        }
-      ],
-      "status": "active",
-      "period": {
-        "@type": "TemporalPeriod",
-        "listedDate": "2022-03-18"
-      },
-      "reasons": [
-        {
-          "@type": "SanctionReason",
-          "description": "Involved in undermining Ukraine's sovereignty"
-        }
-      ]
-    }
-  ]
-}
+require "yaml"
+
+Dir.glob("processed/nz-*.yaml").sort.each do |path|
+  record = YAML.safe_load_file(path)
+  name = record["name"] ||
+         [record["first_name"], record["middle_names"], record["last_name"]].compact.join(" ")
+  puts [record["unique_identifier"], record["type"], record["date_of_sanction"], name].join("\t")
+end
 ----
 
-== Knowledge Graph Integration
+Python (requires PyYAML, installed with `python3 -m pip install PyYAML`):
 
-This repository's processed YAML data feeds into the Ammitto knowledge graph.
+[source,python]
+----
+import glob
+import yaml
 
-Harmonized JSON-LD for this source:
+for path in sorted(glob.glob("processed/nz-*.yaml")):
+    with open(path, encoding="utf-8") as f:
+        record = yaml.safe_load(f)
+    name = record.get("name") or " ".join(
+        record[key] for key in ("first_name", "middle_names", "last_name") if record.get(key)
+    )
+    print(record["unique_identifier"], record["type"], record["date_of_sanction"], name, sep="\t")
+----
+
+The same register, harmonized with the other sources into JSON-LD:
 https://www.ammitto.org/api/v1/sources/nz.jsonld
 
-== Usage
+== Updates
 
-This data is part of the https://github.com/ammitto/ammitto[Ammitto] sanctions
-screening system.
+The `Fetch Data` workflow (`.github/workflows/fetch.yml`) downloads the
+register every day at 06:00 UTC and commits any change to `processed/`. It
+runs with `--prune`, so a designation MFAT has removed is deleted here on the
+next fetch.
 
-== Related Repositories
+== Development
 
-* https://github.com/ammitto/ammitto[ammitto] - Main Ruby gem with harmonization
-* https://github.com/ammitto/data[data] - Harmonized knowledge graph output
-* https://github.com/ammitto/ammitto.github.io[ammitto.github.io] - Website with search
+`processed/` is generated by the Ammitto gem. To refresh it locally, use
+Ruby 3.4 (the version selected by the fetch workflow) and Bundler. From
+the repository root, run:
+
+[source,shell]
+----
+bundle install
+bundle exec ammitto fetch nz --format yaml --output-dir processed --verbose --prune
+----
+
+`--prune` removes files for listings no longer present in the fetched list.
+Review the generated changes before committing them.
+
+Fetch and parser changes belong in the
+https://github.com/ammitto/ammitto[Ammitto gem]; its source models are in
+https://github.com/ammitto/ammitto/tree/main/lib/ammitto/sources/nz[`lib/ammitto/sources/nz/`].
+Report data or source-list issues in
+https://github.com/ammitto/data-nz/issues[this repository].
 
 == License
 
 Data is sourced from official New Zealand government publications.
 Repository structure and processing code are under the MIT License.
+
+== Related
+
+* https://www.ammitto.org[ammitto.org]: search across all sources
+* https://github.com/ammitto/ammitto[ammitto]: the Ruby gem that fetches and harmonizes this data
