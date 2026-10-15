@@ -52,6 +52,58 @@ gives a value. Yes or no columns are kept as the text published (`Yes`,
 | `general_rationale_for_sanction` | string | Reason given for the designation
 |===
 
+== Harmonized field mapping
+
+The https://github.com/ammitto/ammitto/blob/74491e856c1e68aea52c0cf0e34061d48429d359/lib/ammitto/sources/nz/transformer.rb[New Zealand transformer] reads individual, entity and ship models from the processed register.
+
+Targets below use canonical Ruby fields. Entity classes are under
+`Ammitto::Ontology::Entities`; `SanctionEntry`, `OfficialAnnouncement`,
+`SanctionReason` and `SanctionPeriodModification` are under
+`Ammitto::Ontology::Sanction`; other target classes are under
+`Ammitto::Ontology::ValueObjects`. JSON-LD uses the serializer's wire keys:
+`SourceReference.fetched_at`, for example, is published as `retrievedAt`.
+
+[cols="2,3,4",options="header"]
+|===
+| Input field | Canonical target | Transformation
+
+| `type`
+| `PersonEntity`, `OrganizationEntity`, `VesselEntity`
+| Source model class selects the entity type.
+
+| `unique_identifier`, `reference_number`
+| `Entity.id`; `SanctionEntry.id`
+| Uses the unique identifier, with the source reference as fallback; vessel entity IDs can fall back to IMO.
+
+| `first_name`, `middle_names`, `last_name`
+| `NameVariant.full_name`, `is_primary`
+| Joins a person’s stated name parts into the primary name.
+
+| `name`, `name_of_ship_as_of_date_of_sanction`
+| `NameVariant.full_name`
+| Reads processed `name`; the ship row reader derives it from register column `name_of_ship_as_of_date_of_sanction`.
+
+| `imo_number`
+| `VesselEntity.imo_number`
+| Copies the ship identifier.
+
+| `record_deleted_flag`, `date_record_deleted`, `sanction_status`
+| `SanctionEntry.status`
+| A nonblank deletion flag/date or a deleted/removed/revoked/lapsed status produces `delisted`; otherwise status is `active`.
+
+| `travel_ban`, `asset_freeze`, `ship_ban`, `aircraft_ban`
+| `SanctionEffect.effect_type`
+| The exact value `Yes` adds the corresponding travel, asset, vessel or aircraft effect.
+
+| `date_of_sanction`
+| `TemporalPeriod.listed_date`, `is_indefinite`
+| Parses the listing date and marks the period indefinite.
+
+| `unique_identifier`, `reference_number`
+| `SourceReference.reference_number`, `fetched_at`
+| Retains the selected reference under source code `nz`; adds the transformation timestamp.
+|===
+
 == Using the data
 
 Clone or download this repository and run either example from its root
